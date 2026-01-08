@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+/* HEADER */
+header {
+  background-color: #1f4e79;
+  color: white;
+}
+
+#course-title {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #333;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem;
+}
+nav a:hover {
+  background-color: #1f4e79;
+  border-radius: 5px;
+}
+/* MAIN */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* CARDS */
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card img {
+  width: 120px;
+  border-radius: 8px;
+}
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #1f4e79;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+/* FOOTER */
+footer {
+  background-color: #1f4e79;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
