@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tirana | Place</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Tirana, Albania</h1>
+  </header>
+
+  <main>
+    <!-- HERO IMAGE -->
+    <section class="hero">
+      <picture>
+        <source srcset="images/weather-large.webp" media="(min-width: 800px)">
+        <img src="images/weather-large.webp" alt="View of Tirana">
+      </picture>
+    </section>
+
+    <!-- DATA SECTION -->
+    <section class="data">
+      <h2>Data</h2>
+      <p><span>Country:</span> Albania</p>
+      <p><span>Population:</span> 418,000</p>
+      <p><span>Language:</span> Albanian</p>
+      <p><span>Currency:</span> Lek (ALL)</p>
+      <p><span>Time Zone:</span> CET</p>
+      <p><span>Region:</span> Balkans</p>
+    </section>
+
+    <!-- WEATHER SECTION -->
+    <section class="weather">
+      <h2>Weather</h2>
+      <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+
+      <p><span>Temperature:</span> <span id="temp">8</span> °C</p>
+      <p><span>Wind Speed:</span> <span id="wind">10</span> km/h</p>
+      <p><span>Condition:</span> Cloudy</p>
+      <p><span>Wind Chill:</span> <span id="windchill"></span></p>
+    </section>
+  </main>
+
+  <footer>
+      <p>
+        © <span id="currentyear"></span> Alban Kurti | Albania
+      </p>
+      <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
