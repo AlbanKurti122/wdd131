@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Albania Guide - Site Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #1B4F72; /* primary color */
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        p, li {
+            color: #212121;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .accent {
+            color: #F39C12; /* accent color */
+        }
+        .wireframe {
+            border: 2px dashed #1B4F72;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Interactive Albania Guide - Site Plan</h1>
+
+    <!-- Site Name -->
+    <h2>Site Name</h2>
+    <p><strong>Interactive Albania Guide</strong></p>
+    <p>This site represents a comprehensive guide for travelers exploring Albania. It combines information about destinations, cultural activities, and travel planning tools in one interactive platform.</p>
+    <p>Optional domain: <span class="accent">interactivealbania.com</span></p>
+
+    <!-- Site Purpose -->
+    <h2>Site Purpose</h2>
+    <p>The site provides an interactive and dynamic guide to Albania. Visitors can explore popular destinations, filter activities by interest (nature, culture, beaches), and plan trips using a built-in travel form. The goal is to inform and engage users while demonstrating practical JavaScript, HTML, and CSS features.</p>
+
+    <!-- Scenarios -->
+    <h2>Scenarios</h2>
+    <ul>
+        <li><strong>Scenario 1:</strong> A traveler wants to find the best cultural cities to visit in Albania. Which destinations should they explore?</li>
+        <li><strong>Scenario 2:</strong> A user wants to create a personal travel plan and see a summary of chosen cities and activities.</li>
+    </ul>
+
+    <!-- Color Schema -->
+    <h2>Color Schema</h2>
+    <ul>
+        <li><strong>#1B4F72</strong> – Primary color for headings, navigation, and borders</li>
+        <li><strong>#FDFEFE</strong> – Background color for pages</li>
+        <li><strong>#F39C12</strong> – Accent color for buttons, links, highlights</li>
+    </ul>
+
+    <!-- Typography -->
+    <h2>Typography</h2>
+    <ul>
+        <li><strong>Poppins, sans-serif</strong> – Used for headings (h1, h2, h3)</li>
+        <li><strong>Roboto, sans-serif</strong> – Used for body text and paragraphs</li>
+        <li><strong>Monospace</strong> – Optional for code examples or highlights</li>
+    </ul>
+
+    <!-- Wireframes -->
+    <h2>Wireframes</h2>
+
+    <h3>Home Page</h3>
+    <div class="wireframe">
+        <p>Logo & Navigation</p>
+        <p>Featured Destinations Section</p>
+        <p>Interactive Interest Buttons (Nature / Culture / Beaches)</p>
+        <p>Footer with References Link</p>
+    </div>
+
+    <h3>Destinations Page</h3>
+    <div class="wireframe">
+        <p>Filter by category (Nature, Culture, Beaches)</p>
+        <p>Destination Cards with image, name, and short description</p>
+        <p>Button to view details or add to trip plan</p>
+    </div>
+
+    <h3>Plan Your Trip Page</h3>
+    <div class="wireframe">
+        <p>HTML Form for selecting cities and activities</p>
+        <p>Submit button with dynamic summary of choices (JavaScript + localStorage)</p>
+    </div>
+
+    <h3>References Page</h3>
+    <div class="wireframe">
+        <p>List of sources for images and text</p>
+        <p>No styling required</p>
+    </div>
+
+    <!-- JavaScript Functionality Plan -->
+    <h2>JavaScript Functionality Plan</h2>
+    <ul>
+        <li>Filter destinations based on user-selected interest (DOM manipulation)</li>
+        <li>Dynamic display of destination cards using arrays & template literals</li>
+        <li>Form submission handling with validation</li>
+        <li>Store selected destinations and activities in <strong>localStorage</strong></li>
+        <li>Display travel summary dynamically on Plan Your Trip page</li>
+        <li>Use multiple functions, conditional statements, and array methods (<code>filter</code>, <code>map</code>)</li>
+    </ul>
+
+</body>
+</html>
