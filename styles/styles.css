@@ -55,3 +55,22 @@ input[type="submit"]:hover {
 .confirmation {
   text-align: center;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  fieldset label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+
+}
