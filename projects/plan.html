@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Trip</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Plan Your Trip</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="plan.html">Plan Trip</a>
+        </nav>
+    </header>
+
+    <form id="tripForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <select id="place">
+            <option>Tirana</option>
+            <option>Berat</option>
+            <option>Saranda</option>
+            <option>Theth</option>
+        </select>
+
+        <input type="number" id="days" placeholder="Days" required>
+        <button type="submit">Plan Trip</button>
+    </form>
+
+    <p id="message"></p>
+
+    <footer>
+      <a href="references.html">References</a>
+    </footer>
+
+</body>
+</html>
